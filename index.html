@@ -1,5 +1,5 @@
 <!--
-This is a practice website
+This is not a practice website anymore
 -->
 <!DOCTYPE html>
 
@@ -13,32 +13,83 @@ This is a practice website
 	</title>
 </head>
 <body>
-	<ul id = "NavigationMenuUL">
-		<li id = "NavigationMenu"><a class = "active" href = "#home">HOME</a></li>
-		<li id = "NavigationMenu"><a href = "#mytrip">PLAN HOLIDAYS</a></li>
-		<li id = "NavigationMenu"><a href = "#mytrip">MY TRIPS</a></li>
-		<li id = "NavigationMenu"><a href = "#mytrip">OFFERS</a></li>
-		<li id = "NavigationMenu" style = "float: right"><a href = "#help">SUPPORT</a></li>
-		<li id = "NavigationMenu"><a href = "#login">LOGIN</a></li>
+	<ul>
+		<li><a class = "active" href = "#home">HOME</a></li>
+		<li><a href = "#mytrip">PLAN HOLIDAYS</a></li>
+		<li><a href = "#mytrip">MY TRIPS</a></li>
+		<li><a href = "#mytrip">OFFERS</a></li>
+		<li style = "float: right"><a href = "#help">SUPPORT</a></li>
+		<li><a href = "#login">LOGIN</a></li>
 	</ul>
 
 	<div id = "mainbody">
 		<br>
 		<div id = "box1">
 			<div class = "dropdown">
-				<!--<ul id = "dropdownButtonUL">
-					<li id = "dropdownButton"><a href = "#" class = "dropButton"> Number of travellers </a></li>
-				</ul>-->
-				<a href = "#" id = "drop-button-anchor"> NUMBER OF TOURISTS </a></li>
+				<button class = "dropButton"> Number of travellers </button>
 				<input type = "text" id = "travellersnum" disabled>
-				<div class = "dropdown-content">
+				<div class = "dropdown-content" style = "left">
 					<a href = "#" onclick = "setTravellers1()" id = "anchor1">1</a>
 					<a href = "#" onclick = "setTravellers2()" id = "anchor2">2</a>
 					<a href = "#" onclick = "setTravellers3()" id = "anchor3">3</a>
 					<a href = "#" onclick = "setTravellers4()" id = "anchor4">4</a>
 				</div>
-				</div>
+			</div>
 		</div>
+
+		<div id = "boxes">
+
+			<div class = "dropdown">
+		    <button class = "dropButtonSources"> Source 1 </button>
+		    <input type = "text" id = "source1" disabled>
+		    <div class = "dropdown-content">
+		      <a href = "#" onclick = "setSource1City1()" id = "s1c1">Paris</a>
+		      <a href = "#" onclick = "setSource1City2()" id = "s1c2">Prague</a>
+		      <a href = "#" onclick = "setSource1City3()" id = "s1c3">Vetican City</a>
+		      <a href = "#" onclick = "setSource1City4()" id = "s1c4">Istanbul</a>
+		    </div>
+			</div>
+
+			<div class = "dropdown">
+				<button class = "dropButtonSources"> Source 2 </button>
+		    <input type = "text" id = "source2" disabled>
+		    <div class = "dropdown-content">
+		      <a href = "#" onclick = "setSource2City1()" id = "s2c1">Paris</a>
+		      <a href = "#" onclick = "setSource2City2()" id = "s2c2">Prague</a>
+		      <a href = "#" onclick = "setSource2City3()" id = "s2c3">Vetican City</a>
+		      <a href = "#" onclick = "setSource2City4()" id = "s2c4">Istanbul</a>
+		    </div>
+			</div>
+
+			<br>
+			<br>
+
+			<div class = "dropdown">
+				<button class = "dropButtonSources"> Source 3 </button>
+		    <input type = "text" id = "source3" disabled>
+		    <div class = "dropdown-content">
+		      <a href = "#" onclick = "setSource3City1()" id = "s3c1">Paris</a>
+		      <a href = "#" onclick = "setSource3City2()" id = "s3c2">Prague</a>
+		      <a href = "#" onclick = "setSource3City3()" id = "s3c3">Vetican City</a>
+		      <a href = "#" onclick = "setSource3City4()" id = "s3c4">Istanbul</a>
+		    </div>
+			</div>
+
+			<div class = "dropdown">
+				<button class = "dropButtonSources"> Source 4 </button>
+		    <input type = "text" id = "source4" disabled>
+		    <div class = "dropdown-content">
+		      <a href = "#" onclick = "setSource4City1()" id = "s4c1">Paris</a>
+		      <a href = "#" onclick = "setSource4City2()" id = "s4c2">Prague</a>
+		      <a href = "#" onclick = "setSource4City3()" id = "s4c3">Vetican City</a>
+		      <a href = "#" onclick = "setSource4City4()" id = "s4c4">Istanbul</a>
+		    </div>
+			</div>
+
+  	</div>
+	</div>
+
+
 	</div>
 
 	<div class = "footer">
