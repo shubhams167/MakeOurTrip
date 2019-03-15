@@ -21,13 +21,6 @@
 	padding: 5px;
 }
 
-#travellersnum{
-	visibility: hidden;
-	margin-left: 100px;
-	border-radius: 10px;
-	font-size: x-large;
-}
-
 html{
 	background-color: lightgreen;
 	background-image: url("images/logo.png"), url("images/background2.jpg");
@@ -114,6 +107,41 @@ li a:hover{
 	font-size: x-large;
 }
 
+#travellersnum{
+	visibility: visible;
+	margin-left: 80px;
+	border-radius: 10px;
+	font-size: x-large;
+}
+
+#source1{
+	visibility: visible;
+	margin-left: auto;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+#source2{
+	visibility: visible;
+	margin-left: auto;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+#source3{
+	visibility: visible;
+	margin-left: auto;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+#source4{
+	visibility: visible;
+	margin-left: auto;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
 .dropdown{
 	position: relative;
 	display: inline-block;
@@ -126,6 +154,20 @@ li a:hover{
 	font-size: 16px;
 	cursor: pointer;
 	border-radius: 10px;
+}
+
+.dropButtonSources{
+	background: rgb(9, 9, 9, 0.5);
+	background-color: #4CAF50;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 8px;
+	height: 30px;
+	weight: 60px;
+	border-radius: 10px;
+	margin-left: 100px;
+	margin-right: 125px;
 }
 
 .dropdown-content{
