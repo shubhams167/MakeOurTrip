@@ -6,6 +6,7 @@ This is a practice website
 <html>
 <head>
 	<link rel = "stylesheet" href = "style.css">
+	<script src = "jscript.js"></script>
 	<h1 class = "logoHeading"> Make Our Trip </h1>
 	<title>
 		Make Our Trip
@@ -24,17 +25,17 @@ This is a practice website
 	<div id = "mainbody">
 		<br>
 		<div id = "box1">
-			
 			<div class = "dropdown">
 				<button class = "dropButton"> Number of travellers </button>
-				<div class="dropdown-content" style = "left">
-					<a href = "#">1</a>
-					<a href = "#">2</a>
-					<a href = "#">3</a>
-					<a href = "#">4</a>
+				<input type = "text" id = "travellersnum">
+				<div class = "dropdown-content" style = "left">
+					<a href = "#" onclick = "setTravellers1()" id = "anchor1">1</a>
+					<a href = "#" onclick = "setTravellers2()" id = "anchor2">2</a>
+					<a href = "#" onclick = "setTravellers3()" id = "anchor3">3</a>
+					<a href = "#" onclick = "setTravellers4()" id = "anchor4">4</a>
 				</div>
 			</div>
-		</div> 
+		</div>
 	</div>
 
 	<div class = "footer">

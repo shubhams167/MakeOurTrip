@@ -21,6 +21,13 @@
 	padding: 5px;
 }
 
+#travellersnum{
+	visibility: hidden;
+	margin-left: 100px;
+	border-radius: 10px;
+	font-size: x-large;
+}
+
 html{
 	background-color: lightgreen;
 	background-image: url("images/logo.png"), url("images/background2.jpg");
@@ -150,4 +157,3 @@ li a:hover{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
-
