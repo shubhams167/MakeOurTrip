@@ -1,25 +1,23 @@
-function setTravellers1(){
+function incrementTravellers(){
   document.getElementById("travellersnum").style.visibility = "visible";
-  var x = document.getElementById("anchor1").text;
-  document.getElementById("travellersnum").value = x;
+  var x = parseInt(document.getElementById("travellersnum").value);
+  if(x > 3){
+    alert("Oops. Currently we only support upto 4 tourists!");
+  }
+  else{
+    document.getElementById("travellersnum").value = x+1;
+  }
 }
 
-function setTravellers2(){
+function decrementTravellers(){
   document.getElementById("travellersnum").style.visibility = "visible";
-  var x = document.getElementById("anchor2").text;
-  document.getElementById("travellersnum").value = x;
-}
-
-function setTravellers3(){
-  document.getElementById("travellersnum").style.visibility = "visible";
-  var x = document.getElementById("anchor3").text;
-  document.getElementById("travellersnum").value = x;
-}
-
-function setTravellers4(){
-  document.getElementById("travellersnum").style.visibility = "visible";
-  var x = document.getElementById("anchor4").text;
-  document.getElementById("travellersnum").value = x;
+  var x = parseInt(document.getElementById("travellersnum").value);
+  if(x < 1){
+    alert("There must be some tourists! Right?");
+  }
+  else{
+    document.getElementById("travellersnum").value = x-1;
+  }
 }
 
 function setSource1City1(){
