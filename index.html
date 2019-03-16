@@ -7,7 +7,6 @@ This is not a practice website anymore
 <head>
 	<link rel = "stylesheet" href = "style.css">
 	<script src = "jscript.js"></script>
-	<script src = "jscriptShubh.js"></script>
 	<h1 class = "logoHeading"> Make Our Trip </h1>
 	<h6 class = "slogan">For those who love to travel</h6>
 	<title>
@@ -32,9 +31,9 @@ This is not a practice website anymore
 				<input  id = "travellersnum" value = "0" disabled>
 				<button id = "plus-button" onclick = "incrementTravellers()"> + </button>
 		</div>
-		<div id = "boxes">
 
-			<div class = "dropdown">
+		<div id = "boxes">
+			<div class = "dropdown" id = "dropdown1">
 			    <button class = "dropButtonSources"> Person 1 from </button>
 			    <div class = "dropdown-content">
 			      <a onclick = "setSource1City1()" id = "s1c1" class = "source-anchors">Paris</a>
@@ -47,7 +46,7 @@ This is not a practice website anymore
 			<br>
 			<br>
 
-			<div class = "dropdown">
+			<div class = "dropdown" id = "dropdown2">
 				<button class = "dropButtonSources"> Person 2 from </button>
 			    <div class = "dropdown-content">
 			      <a onclick = "setSource2City1()" id = "s2c1" class = "source-anchors">Paris</a>
@@ -60,7 +59,7 @@ This is not a practice website anymore
 			<br>
 			<br>
 
-			<div class = "dropdown">
+			<div class = "dropdown" id = "dropdown3">
 				<button class = "dropButtonSources"> Person 3 from </button>
 			    <div class = "dropdown-content">
 			      <a onclick = "setSource3City1()" id = "s3c1" class = "source-anchors">Paris</a>
@@ -73,7 +72,7 @@ This is not a practice website anymore
 			<br>
 			<br>
 
-			<div class = "dropdown">
+			<div class = "dropdown" id = "dropdown4">
 				<button class = "dropButtonSources"> Person 4 from </button>
 			    <div class = "dropdown-content">
 			      <a onclick = "setSource4City1()" id = "s4c1" class = "source-anchors">Paris</a>
