@@ -1,6 +1,8 @@
 # Make Our Trip
-`For those who love to travel`
-An online tool by which people can plan their trips with their loved ones :relaxed: , even when they are not from the same country.
+
+`For those who love to travel`  
+  
+ An online tool by which people can plan their trips with their loved ones :relaxed: , even when they are not from the same country.
 
 ## Motivation
 This project is a contribution for “Hackathon 2019”, conducted by Dr. AITH Kanpur.
