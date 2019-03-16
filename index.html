@@ -1,5 +1,5 @@
 <!--
-This is a practice website
+This is not a practice website anymore
 -->
 <!DOCTYPE html>
 
@@ -8,6 +8,7 @@ This is a practice website
 	<link rel = "stylesheet" href = "style.css">
 	<script src = "jscript.js"></script>
 	<h1 class = "logoHeading"> Make Our Trip </h1>
+	<h6 class = "slogan">For those who love to travel</h6>
 	<title>
 		Make Our Trip
 	</title>
@@ -25,17 +26,73 @@ This is a practice website
 	<div id = "mainbody">
 		<br>
 		<div id = "box1">
-			<div class = "dropdown">
-				<button class = "dropButton"> Number of travellers </button>
-				<input type = "text" id = "travellersnum">
-				<div class = "dropdown-content" style = "left">
-					<a href = "#" onclick = "setTravellers1()" id = "anchor1">1</a>
-					<a href = "#" onclick = "setTravellers2()" id = "anchor2">2</a>
-					<a href = "#" onclick = "setTravellers3()" id = "anchor3">3</a>
-					<a href = "#" onclick = "setTravellers4()" id = "anchor4">4</a>
-				</div>
-			</div>
+				<button id = "num-tourists"> Number of Tourists </button>
+				<button id = "minus-button" onclick = "decrementTravellers()"> - </button>
+				<input  id = "travellersnum" value = "0" disabled>
+				<button id = "plus-button" onclick = "incrementTravellers()"> + </button>
 		</div>
+		<div id = "boxes">
+
+			<div class = "dropdown">
+			    <button class = "dropButtonSources"> Person 1 from </button>
+			    <input type = "text" id = "source1" class = "source-field" disabled>
+			    <div class = "dropdown-content">
+			      <a onclick = "setSource1City1()" id = "s1c1" class = "source-anchors">Paris</a>
+			      <a onclick = "setSource1City2()" id = "s1c2" class = "source-anchors">Prague</a>
+			      <a onclick = "setSource1City3()" id = "s1c3" class = "source-anchors">Vatican City</a>
+			      <a onclick = "setSource1City4()" id = "s1c4" class = "source-anchors">Istanbul</a>
+			    </div>
+			</div>
+
+			<br>
+			<br>
+
+			<div class = "dropdown">
+				<button class = "dropButtonSources"> Person 2 from </button>
+			    <input type = "text" id = "source2" class = "source-field" disabled>
+			    <div class = "dropdown-content">
+			      <a onclick = "setSource2City1()" id = "s2c1" class = "source-anchors">Paris</a>
+			      <a onclick = "setSource2City2()" id = "s2c2" class = "source-anchors">Prague</a>
+			      <a onclick = "setSource2City3()" id = "s2c3" class = "source-anchors">Vatican City</a>
+			      <a onclick = "setSource2City4()" id = "s2c4" class = "source-anchors">Istanbul</a>
+			    </div>
+			</div>
+
+			<br>
+			<br>
+
+			<div class = "dropdown">
+				<button class = "dropButtonSources"> Person 3 from </button>
+			    <input type = "text" id = "source3" class = "source-field" disabled>
+			    <div class = "dropdown-content">
+			      <a onclick = "setSource3City1()" id = "s3c1" class = "source-anchors">Paris</a>
+			      <a onclick = "setSource3City2()" id = "s3c2" class = "source-anchors">Prague</a>
+			      <a onclick = "setSource3City3()" id = "s3c3" class = "source-anchors">Vatican City</a>
+			      <a onclick = "setSource3City4()" id = "s3c4" class = "source-anchors">Istanbul</a>
+			    </div>
+			</div>
+
+			<br>
+			<br>
+
+			<div class = "dropdown">
+				<button class = "dropButtonSources"> Person 4 from </button>
+			    <input type = "text" id = "source4" class = "source-field" disabled>
+			    <div class = "dropdown-content">
+			      <a onclick = "setSource4City1()" id = "s4c1" class = "source-anchors">Paris</a>
+			      <a onclick = "setSource4City2()" id = "s4c2" class = "source-anchors">Prague</a>
+			      <a onclick = "setSource4City3()" id = "s4c3" class = "source-anchors">Vatican City</a>
+			      <a onclick = "setSource4City4()" id = "s4c4" class = "source-anchors">Istanbul</a>
+			    </div>
+			</div>
+
+			<br>
+			<br>
+
+  	</div>
+	</div>
+
+
 	</div>
 
 	<div class = "footer">
