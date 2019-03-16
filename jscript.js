@@ -7,6 +7,7 @@ function incrementTravellers(){
   else{
     document.getElementById("travellersnum").value = x+1;
   }
+  workTourists();
 }
 
 function decrementTravellers(){
@@ -17,6 +18,23 @@ function decrementTravellers(){
   }
   else{
     document.getElementById("travellersnum").value = x-1;
+  }
+  workTourists();
+}
+
+
+function workTourists(){
+  var x = parseInt(document.getElementById("travellersnum").value);
+  var sources = ["source1", "source2", "source3", "source4"];
+  for(var i = 0; i <sources.length; i++){
+    if(i < x ){
+      document.getElementById(sources[i]).disabled = true;
+      document.getElementById(sources[i]).style.visibility = "visible";
+    }
+    else {
+      document.getElementById(sources[i]).disabled = true;
+      document.getElementById(sources[i]).style.visibility = "hidden";
+    }
   }
 }
 
