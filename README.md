@@ -12,7 +12,7 @@ This project is a contribution for “Hackathon 2019”, conducted by Dr. AITH K
 ## Credits
 [Shlok Kashyap](https://github.com/shlokks) : :snake:   
 [Shubham Singh](https://github.com/shubhams167) : :six::one:  
-[Suraj Kasaudhan](https://github.com/surajks) :  :cow:  
+[Suraj Kasaudhan](https://github.com/surajks) :  :lion:  
 [Tushar Sharma](https://github.com/imtusharsharma) : :octocat:
 
 ----
